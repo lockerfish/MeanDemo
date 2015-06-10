@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+	#product
+	h1 Deleting Product
+	p
+		img(src="http://wpshout.com/media/2014/03/wordpress-hipster-barista.png")
+	p
+		a(href='/products/#{productId}') No
+	p
+		a(href='/products/delete/#{productId}') Yes
